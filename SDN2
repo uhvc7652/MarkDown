@@ -15,13 +15,14 @@ Ubuntu 20.04 Desktop amd64
 ### （一）基本要求
 
     1. 使用Mininet可视化工具，生成下图所示的拓扑，并保存拓扑文件名为学号.py。
-
+    <img src="Z:\爬虫图片\P5)V%F[RXNI)KAZ5]_3A](6.png">
     2. 使用Mininet的命令行生成如下拓扑：
     a) 3台交换机，每个交换机连接1台主机，3台交换机连接成一条线。
+    <img src="Z:\爬虫图片\{[K~KTDY_OFS@O_G`2CX{66.png">
     b) 3台主机，每个主机都连接到同1台交换机上。
-
+    <img src="Z:\爬虫图片\I_~648BFPTC(F41YE4{]QN7.png">
     3. 在2 b)的基础上，在Mininet交互界面上新增1台主机并且连接到交换机上，再测试新拓扑的连通性。
-
+    <img src="Z:\爬虫图片\L`[3BE4HB`4{L8(PAYG2@DX.png">
     4. 编辑（一）中第1步保存的Python脚本，添加如下网络性能限制，生成拓扑：
     a) h1的cpu最高不超过50%；
     b) h1和s1之间的链路带宽为10，延迟为5ms，最大队列大小为1000，损耗率50。
@@ -87,6 +88,7 @@ if __name__ == '__main__':
     myNetwork()
 
     (''')
+    <img src="Z:\爬虫图片\9EN`~[OOKRIR$CKE_TXNJ%Y.png">
 
 ### （二）进阶要求
 
@@ -152,7 +154,7 @@ class MyTopo( Topo ):
 topos = { 'mytopo': ( lambda: MyTopo() ) }
     (''')
     运行结果:
-    ![]
+    <img src="Z:\爬虫图片\RBZCJ35{79ZM)%)A9J0(~@Q.png">
 
 ## 四、实验报告
 
